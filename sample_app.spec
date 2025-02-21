@@ -18,7 +18,7 @@ echo "Building application..."
 
 %install
 mkdir -p %{buildroot}/usr/local/bin
-cp sample.sh %{buildroot}/usr/local/bin/sample_app
+cp sample_app.sh %{buildroot}/usr/local/bin/sample_app
 
 %files
 /usr/local/bin/sample_app
