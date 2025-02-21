@@ -3,7 +3,7 @@ Version: %{version}
 Release: 1%{?dist}
 Summary: Sample application for RPM packaging
 License: MIT
-Source0: sample-%{version}.tar.gz
+Source0: sample_app-%{version}.tar.gz
 Requires: coreutils
 BuildArch: noarch
 
