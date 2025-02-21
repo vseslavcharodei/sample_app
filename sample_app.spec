@@ -18,10 +18,10 @@ echo "Building application..."
 
 %install
 mkdir -p %{buildroot}/usr/local/bin
-cp sample.sh %{buildroot}/usr/local/bin/sample
+cp sample.sh %{buildroot}/usr/local/bin/sample_app
 
 %files
-/usr/local/bin/myapp
+/usr/local/bin/sample_app
 
 %changelog
 * Tue Feb 19 2025 John Doe <john@example.com> - %{version}-1
