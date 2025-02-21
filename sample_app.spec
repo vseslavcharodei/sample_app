@@ -1,4 +1,4 @@
-Name: sample
+Name: sample_app
 Version: %{version}
 Release: 1%{?dist}
 Summary: Sample application for RPM packaging
